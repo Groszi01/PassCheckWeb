@@ -1,3 +1,50 @@
-body {
-    background-color: whitesmoke;
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #0F7F98;
 }
+
+ul, 
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.nav {
+  margin:10px 5px;
+  text-align: right;
+
+}
+
+#title {
+    text-align: left;
+    justify-content: left;
+    color: #ffffff;
+    font-size: 1.0em;
+}
+
+.nav__item, 
+.nav__item--selected {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.nav__item a, 
+.nav__item--selected a {
+  color: #ffffff;
+  font-size: 0.9em;
+  padding: 4px;
+}
+
+.nav__item--selected a {
+  color: rgb(255, 255, 255);
+  border-bottom : rgb(255, 255, 255) solid 2px
+}
+
