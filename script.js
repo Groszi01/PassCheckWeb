@@ -1,16 +1,29 @@
 
-function checkLength() {
+
+function PassChecker() {
 
     const cardInput = document.getElementById('card');
 
-    const cardInputValueLength = cardInput.value.length;
+    const cardInputValue = cardInput.value;
 
-    console.log(`Length: ${cardInputValueLength}`);
-    cardInput.addEventListener('input', checkLength);
+    const cardInputValueLength = cardInputValue.length;
+
+    const hasNumber = /\d/.test(cardInputValue);
+
+    const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(cardInputValue);
+
+    const hasUpperCase = /[A-Z]/.test(cardInputValue);
+
+
+    if (cardInputValueLength <= 5 && !hasNumber && !hasSpecialChar) {
+        console.log("Weak");
+    } 
 
 }
 
+const cardInput = document.getElementById('card');
+
+cardInput.addEventListener('input', PassChecker);
 
 
-
-checkLength();
+PassChecker();
