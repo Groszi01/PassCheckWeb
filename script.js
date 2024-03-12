@@ -1,11 +1,16 @@
 
+function checkLength() {
 
-function checkLenght() {
     const cardInput = document.getElementById('card');
+
     const cardInputValueLength = cardInput.value.length;
-    console.log(`Lenght: ${cardInputValueLength}`);
+
+    console.log(`Length: ${cardInputValueLength}`);
+    cardInput.addEventListener('input', checkLength);
 
 }
 
 
-checkLenght()
+
+
+checkLength();
