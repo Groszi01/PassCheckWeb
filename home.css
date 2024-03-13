@@ -124,3 +124,24 @@ input {
   border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
+input:focus {
+  animation: fadeBackground 9s infinite;
+
+}
+
+@keyframes fadeBackground {
+  0% { background-color: #0a5161; }
+  10% { background-color: #0fb8b8; }
+  20% { background-color: #11b677; }
+  30% { background-color: #c8dd0c; }
+  40% { background-color: #b1461b; }
+  50% { background-color: #be0b7a; }
+  60% { background-color: #0a5161; }
+  70% { background-color: #0fb8b8; }
+  80% { background-color: #11b677; }
+  85% { background-color: #c8dd0c; }
+  90% { background-color: #b1461b; }
+  95% { background-color: #be0b7a; }
+  100% { background-color: #0a5161; }
+}

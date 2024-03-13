@@ -24,7 +24,7 @@ function PassChecker() {
     if (cardInputValueLength > 8 && hasNumber && !hasSpecialChar && hasUpperCase) {
         console.log("Good");
     }
-    if (cardInputValueLength > 8 && cardInputValueLength < 12 && hasNumber && hasSpecialChar && hasUpperCase) {
+    if (cardInputValueLength > 9 && cardInputValueLength < 12 && hasNumber && hasSpecialChar && hasUpperCase) {
         console.log("Very Good");
     }
     if (cardInputValueLength > 12 && hasNumber && hasSpecialChar && hasUpperCase) {
@@ -32,6 +32,7 @@ function PassChecker() {
     }
 
 }
+
 
 const cardInput = document.getElementById('card');
 
