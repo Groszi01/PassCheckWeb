@@ -90,8 +90,9 @@ a {
 label {
 
   display:flex;
+  font-size: 2rem;
   flex-direction: column-reverse;
-  justify-content: center;
+  text-align: center;
   font-weight: bolder;
   color:rgb(255, 255, 255);
   
@@ -118,11 +119,13 @@ label {
 input {
   margin-top: 1rem;
   padding: 0.5rem;
+  color: #000000;
   font-size: 1rem;
-  width: 30rem;
+  background-color: #ffffff;
+  width: 28rem;
   border-radius: 5px;
   border: none;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(26, 217, 224, 0.575);
 }
 
 input:focus {
@@ -131,7 +134,7 @@ input:focus {
 }
 
 @keyframes fadeBackground {
-  0% { background-color: #0a5161; }
+  0% { background-color: #ffffff; }
   10% { background-color: #0fb8b8; }
   20% { background-color: #11b677; }
   30% { background-color: #c8dd0c; }
@@ -143,5 +146,5 @@ input:focus {
   85% { background-color: #c8dd0c; }
   90% { background-color: #b1461b; }
   95% { background-color: #be0b7a; }
-  100% { background-color: #0a5161; }
+  100% { background-color: #ffffff; }
 }
