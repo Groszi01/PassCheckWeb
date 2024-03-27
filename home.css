@@ -6,8 +6,6 @@
 
   font-family: sans-serif;
 
-  background-color: #0F7F98;
-
 
 }
 
@@ -94,7 +92,6 @@ label {
 
   display:flex;
   font-size: 2rem;
-  flex-direction: column-reverse;
   text-align: center;
   font-weight: bolder;
   color:rgb(255, 255, 255);
@@ -102,16 +99,16 @@ label {
 }
 
 
-.banner {
+.banner, #banner {
 
-  background-color:  #0F7F98;
-  padding: 2rem 0;
+  background-color:  #1286b4;
 
 }
 
 
 .banner__content {
 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
