@@ -8,6 +8,7 @@
 
   background-color: #0F7F98;
 
+
 }
 
 
@@ -49,7 +50,9 @@ a {
 
   color: #ffffff;
 
-  font-size: 1.0em;
+  font-size: 2.8em;
+
+  font-weight: bolder;
 
 }
 
@@ -126,6 +129,7 @@ input {
   border-radius: 5px;
   border: none;
   box-shadow: 0 0 5px rgba(26, 217, 224, 0.575);
+  margin-bottom: 10em;
 }
 
 input:focus {
@@ -147,4 +151,21 @@ input:focus {
   90% { background-color: #b1461b; }
   95% { background-color: #be0b7a; }
   100% { background-color: #ffffff; }
+}
+
+.style1 {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-style: Sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 7em;
+}
+
+.style2 {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+
 }
