@@ -1,139 +1,158 @@
 * {
-
+ 
   -moz-box-sizing: border-box;
-
+ 
   box-sizing: border-box;
-
+ 
   font-family: sans-serif;
-
-
+ 
+ 
 }
-
-
-ul, 
-
+ 
+ 
+ul,
+ 
 li {
-
+ 
     margin: 0;
-
+ 
     padding: 0;
-
+ 
     list-style-type: none;
-
+ 
 }
-
-
+ 
+ 
 a {
-
+ 
   text-decoration: none;
-
+ 
 }
-
-
-
+ 
+ 
+ 
 .nav {
-
-  margin:10px 5px;
-
+ 
+  margin:10px 3px;
+ 
   text-align: right;
-
+ 
+ 
 }
-
-
+ 
+ 
 #title {
-
+ 
   text-align: left;
-
+ 
   justify-content: left;
-
+ 
   color: #ffffff;
-
+ 
   font-size: 2.8em;
-
+ 
   font-weight: bolder;
-
+ 
+  position: relative;
+ 
+  top: -41.5px;
+ 
+  right: -6px;
+ 
 }
-
-
-.nav__item, 
-
+ 
+ 
+.nav__item,
+ 
 .nav__item--selected {
-
+ 
+  font-size: 1.0rem;
+ 
   display: inline-block;
-
+ 
   margin: 0 5px;
-
+ 
+  font-family: 'Kumbh Sans';
+ 
 }
-
-
-.nav__item a, 
-
+ 
+ 
+.nav__item a,
+ 
 .nav__item--selected a {
-
+ 
   color: #ffffff;
-
-  font-size: 0.9em;
-
+ 
+  font-size: 1.6em;
+ 
   padding: 4px;
-
+ 
+  font-family: 'Kumbh Sans';
+ 
 }
-
-
+ 
+ 
 .nav__item--selected a {
-
+ 
+  font-family: 'Kumbh Sans';
+ 
+  font-size: 1.6rem;
+ 
   color: rgb(255, 255, 255);
-
+ 
   border-bottom : rgb(255, 255, 255) solid 2px
-
+ 
+ 
 }
-
-
+ 
+ 
 label {
-
+ 
   display:flex;
   font-size: 2rem;
   text-align: center;
   font-weight: bolder;
   color:rgb(255, 255, 255);
-  
+  margin: 5px;
+ 
 }
-
-
+ 
+ 
 .banner, #banner {
-
+ 
   background-color:  #1286b4;
-
+ 
 }
-
-
+ 
+ 
 .banner__content {
-
+ 
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+ 
 }
-
+ 
 input {
   margin-top: 1rem;
   padding: 0.5rem;
   color: #000000;
   font-size: 1rem;
   background-color: #ffffff;
-  width: 28rem;
+  width: 29.3rem;
   border-radius: 5px;
   border: none;
   box-shadow: 0 0 5px rgba(26, 217, 224, 0.575);
-  margin-bottom: 10em;
+  margin-bottom: 3em;
 }
-
+ 
 input:focus {
   animation: fadeBackground 9s infinite;
-
+ 
 }
-
+ 
 @keyframes fadeBackground {
   0% { background-color: #ffffff; }
   10% { background-color: #0fb8b8; }
@@ -149,30 +168,281 @@ input:focus {
   95% { background-color: #be0b7a; }
   100% { background-color: #ffffff; }
 }
-
+ 
+footer {
+  position: relative;
+  top: 70px;
+ 
+ 
+}
+ 
 .style1 {
   text-align: center;
   line-height: 1.5;
   margin-bottom: 1rem;
   font-style: Sans-serif;
   color: rgb(255, 255, 255);
-  margin-bottom: 7em;
+  margin-bottom: 5em;
+  font-weight: bold;
+ 
 }
-
+ 
 .style2 {
   color: rgb(0, 0, 0);
   text-align: left;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: 'Itim';
   font-size: 45px;
   margin:35px;
   margin-bottom: 1,7em;
-
-
+ 
+ 
+}
+ 
+.style3 {
+  margin: 24px 79px;
+  width: 90rem;
+  font-family: 'Itim';
+ 
+}
+ 
+.style4 {
+  margin: 24px 79px;
+  width: 90rem;
+  font-family: 'Itim';
+ 
+}
+.gyakran{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: 'Itim';
+  font-size: 45px;
+  margin:35px 40px;
+ 
+ 
+}
+ 
+.erosseg {
+  margin-bottom: 3em;
+ 
+}
+ 
+.circle {
+  margin: 2.2px 0;
+  height: 7px;
+  width: 7px;
+  background-color: #C8B1B1;
+  border-radius: 50%;
+  display: inline-block;
+}
+ 
+.style5 {
+  color: #000000;
+  font-family: 'Inter';
+ 
+ 
+}
+ 
+.style6 {
+  color: #000000;
+  font-family: 'Inter';
+  position: relative;
+  right: -750px;
+  top: -48px;
+  font-size: 25px;
+}
+ 
+ 
+.rectangle {
+  position: relative;
+  right: -750px;
+  top: -30px;
+ 
+}
+ 
+.email5 {
+  position: relative;
+  right: -746px;
+  top: -49px;
+  height: 49.5px;
+  width: 300px;
+ 
+}
+ 
+.button2 {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #1286b4;
+  font-size: large;
+  position: relative;
+  right: -735px;
+  top: -49px;
+  height: 49.5px;
+  width: 150px;
+  font-weight: bolder;
+  font-family: 'Libre Franklin';
+}
+ 
+#rectanglee {
+  width: 550px;
+  height: 50px;
+  background-color: #D9D9D9;
+  border: 0.5px solid black;
+  padding: 10px;
+  position: relative;
+  right: -393px;
+  top: -10px;
+}
+#rectanglee p {
+  text-align: left;
+  position: relative;
+  top: -16px;
+  font-family: 'Itim';
+  font-size: 20px;
+  font-weight: bolder;
+ 
+}
+#rectanglee h1 {
+text-align: right;
+position: relative;
+top: -68px;
+font-size: 29px;
+ 
+}
+ 
+.rectangle3 {
+  width: 550px;
+  height: 50px;
+  background-color: #D9D9D9;
+  border: 0.5px solid black;
+  padding: 10px;
+  position: relative;
+  right: -393px;
+  top: -9.7px;
+}
+.rectangle3 p {
+  text-align: left;
+  font-family: 'Itim';
+  font-size: 20px;
+  position: relative;
+  top: -16px;
+  font-weight: bolder;
+ 
+}
+.rectangle3 h1 {
+text-align: right;
+position: relative;
+top: -68px;
+font-size: 29px;
+ 
+}
+ 
+.rectangle4 {
+  width: 550px;
+  height: 50px;
+  background-color: #D9D9D9;
+  border: 0.5px solid black;
+  padding: 10px;
+  position: relative;
+  right: -393px;
+  top: -9.7px;
+}
+.rectangle4 p {
+  text-align: left;
+  font-family: 'Itim';
+  font-size: 20px;
+  position: relative;
+  top: -16px;
+  font-weight: bolder;
+ 
+}
+.rectangle4 h1 {
+text-align: right;
+position: relative;
+top: -68px;
+font-size: 29px;
+ 
+}
+ 
+.rectangle5 {
+  width: 550px;
+  height: 50px;
+  background-color: #D9D9D9;
+  border: 0.5px solid black;
+  padding: 10px;
+  position: relative;
+  right: -393px;
+  top: -9.7px;
+}
+.rectangle5 p {
+  text-align: left;
+  font-family: 'Itim';
+  font-size: 20px;
+  position: relative;
+  top: -16px;
+  font-weight: bolder;
+ 
+}
+.rectangle5 h1 {
+text-align: right;
+position: relative;
+top: -68px;
+font-size: 29px;
+ 
+}
+ 
+.copy {
+  font-family: 'Kumbh Sans';
+  color: #000000;
+  position: relative;
+  top: -63px;
 }
 
-.style3 {
-  margin:79px;
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: 2px;
+  background-color: rgba(
+      0,
+      0,
+      0,
+      0.4
+  );
+  display: none;
+}
+.popup-content {
+  background-color: #1286b4;
+  margin: 10% auto;
+  padding: 20px;
+  border: 3px  #000000;
+  width: 30%;
+  font-weight: bolder;
+}
+.popup-content button {
+  display: block;
+  margin: 1 auto;
+  position: relative;
+  right: -130px;
+  color: rgb(28, 131, 145);
+  
+}
+.show {
+  display: block;
+}
 
-
-
+.popupfont {
+  font-size: xx-large;
+  font-family: 'Itim';
+  font-weight: bolder;
 }

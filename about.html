@@ -7,18 +7,94 @@
     <link rel="stylesheet" href="about.css">
     <title>Pass Check</title>
 </head>
-<body>
-    <nav>
+ 
+<body style="margin: 0px; height: 1550px;">
+  <header style="height:420px ;" >
+    <nav style="background-color:rgb(28, 131, 145); height: 64px;" >
         <ul class="nav">
-          <li class="nav__item">
-            <strong><a href="home.html">Kezdőlap</a></strong>
-          </li>
-          <li class="nav__item--selected">
-            <strong><a href="about.html">Rólunk</a></strong>
+            <li class="nav__item--selected">
+                <strong><a href="home.html">Kezdőlap</a></strong>
+            </li>
+            <li class="nav__item">
+                <strong><a href="about.html">Rólunk</a></strong>
+            </li>
         </ul>
         <a id="title">PassCheck</a>
-      </nav>  
-      <br>
-      
+    </nav>
+    <h6 class="rolunk">Rólunk</h6>
+  </header>
+  <script src="script.js"></script>
+  <h4 class="cegunk">A cégünk</h4>
+  <p class="szoveg">A cégünk 2022-ben alakult és különböző weboldal<br> fejlesztéssel foglalkozunk.
+     Különböző cégek kérését<br> teljesítjük. Amennyiben szükséged van egy weboldalra és<br>
+     nincs hozzá megfelelő tudásod, keres minket a lenti címeken!<br>
+    Ez alatt lehetőség van nálunk munkalehetőséget találni,<br> ennek a lent található email címen és telefonszámon lehet<br>  utána kérdezni! </p>
+    <img src="https://minner.hu/wp-content/uploads/2019/08/vallalkozas-inditas-cegtars-kereses-1068x712.jpg" class="images">
+  <h6 class="kapcsolat">Kapcsolat</h6>
+  <input class="nev" type="text" placeholder="Név..." />
+  <input class="email" type="email" placeholder="Email..." />
+  <input class="targy" type="text" placeholder="Tárgy..." />
+  <input class="uzenet" type="search" placeholder="Üzenet..." />
+  <button class="button" type="button"><strong>Küldés</strong></button>
+  <p class="telefon">&#128222;</p>
+  <p class="location"> 📍</p>
+  <p class="email2">&#x2709;</p>
+  <h3 class="mobil">+36 1 333 4434</h3>
+  <h3 class="loc">Baja, Hungary</h3>
+  <h3 class="email3">support@passcheck.com</h3>
+  <footer style="background: linear-gradient(to right, #EEEEEE 50%, #E9E8E8 50%); color: white; padding: 10px; height: 250px;">
+    <script src="script.js"></script>  
+    <li class="style5">
+        <strong><a href="home.html">Főoldal</a></strong>
+    </li>
+    <li class="style5">
+        <strong><a href="about.html">Rólunk</a></strong>
+    </li>
+    <p class="style6">Iratkozz fel a hírlevelünkre hogy folyamatosan<br> frissítsünk téged az újdonságokról.</p>
+    <svg class="rectangle" width="30" height="56" xmlns="http://www.w3.org/2000/svg">
+        <rect width="150" height="150" x="10" y="10"
+        style="fill:#115D67;stroke:#115D67;stroke-width:5;" />
+      </svg>
+      <input class="email5" id="card" type="email" placeholder="Email..." />
+      <button id="myButton" onclick=" document.getElementById('card').value = ''"  class="button2" type="button"><strong>Feliratkozás</strong></button>
+      <p class="copy">© Copyright 2024 PassCheck all rights reserved.</p>
+      <div id="myPopup" class="popup">
+          <div class="popup-content">
+              <h1 class="popupfont" style="color: rgb(0, 0, 0)">
+                  Sikeresen feliratkoztál !
+              </h1>
+              <button id="closePopup">
+                  Bezárás
+              </button>
+          </div>
+      </div>
+ 
+      <script>
+          myButton.addEventListener(
+              "click",
+              function () {
+                  myPopup.classList.add("show");
+              }
+          );
+          closePopup.addEventListener(
+              "click",
+              function () {
+                  myPopup.classList.remove(
+                      "show"
+                  );
+              }
+          );
+          window.addEventListener(
+              "click",
+              function (event) {
+                  if (event.target == myPopup) {
+                      myPopup.classList.remove(
+                          "show"
+                      );
+                  }
+              }
+          );
+      </script>
+</footer>
 </body>
 </html>
