@@ -65,6 +65,8 @@ a {
 .nav__item,
  
 .nav__item--selected {
+
+  padding-top: 6px;
  
   font-size: 1.0rem;
  
@@ -72,7 +74,6 @@ a {
  
   margin: 0 5px;
  
-  font-family: 'Kumbh Sans';
  
 }
  
@@ -87,14 +88,13 @@ a {
  
   padding: 4px;
  
-  font-family: 'Kumbh Sans';
  
 }
  
  
 .nav__item--selected a {
  
-  font-family: 'Kumbh Sans';
+
  
   font-size: 1.6rem;
  

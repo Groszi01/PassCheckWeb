@@ -51,9 +51,11 @@ function PassChecker() {
 
 
 
-const cardInput = document.getElementById('card');
+const cardInput1 = document.getElementById('card');
 
-cardInput.addEventListener('input', PassChecker);
+cardInput1.addEventListener('input', PassChecker);
 
 
 PassChecker();
+
+
