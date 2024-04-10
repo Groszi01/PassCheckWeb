@@ -41,9 +41,9 @@ function PassChecker() {
         headerElement.textContent = "Legendás";
         bannerElement.style.backgroundColor = "#2de0e3"
     
-      } else {
+      } else if (cardInputValueLength = 0) {
     
-        headerElement.textContent = "Írd be a jelszavad hogy megnézzük milyen erős valójában!"; // reset the text to the original if the input is empty
+        headerElement.textContent = "Írd be a jelszavad hogy megnézzük milyen erős valójában!";
         bannerElement.style.backgroundColor = "#1286b4"
       }
     
@@ -59,3 +59,10 @@ cardInput1.addEventListener('input', PassChecker);
 PassChecker();
 
 
+
+// FAQ  
+
+
+function rollDown(button) {
+  
+} 
