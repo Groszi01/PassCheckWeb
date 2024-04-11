@@ -60,9 +60,4 @@ PassChecker();
 
 
 
-// FAQ  
 
-
-function rollDown(button) {
-  
-} 
