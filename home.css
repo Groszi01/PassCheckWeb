@@ -236,20 +236,20 @@ input:focus {
 .style3 {
   margin: 24px 79px;
   width: 90rem;
-  font-family: 'Itim';
+  font-family: 'ui-monospace';
  
 }
  
 .style4 {
   margin: 24px 79px;
   width: 90rem;
-  font-family: 'Itim';
+  font-family: 'ui-monospace';
  
 }
 .gyakran{
   color: rgb(0, 0, 0);
   text-align: left;
-  font-family: 'Itim';
+  font-family: 'ui-monospace';
   font-size: 45px;
   margin:35px 40px;
  
@@ -272,14 +272,14 @@ input:focus {
  
 .style5 {
   color: #000000;
-  font-family: 'Inter';
+  font-family: 'ui-monospace';
  
  
 }
  
 .style6 {
   color: #000000;
-  font-family: 'Inter';
+  font-family: 'ui-monospace';
   position: relative;
   right: -750px;
   top: -48px;
