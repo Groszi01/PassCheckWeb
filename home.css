@@ -170,10 +170,6 @@ input:focus {
 
 @media only screen and (max-width: 768px) {
 
-  footer {
-    position: static;
-    height: auto;
-  }
 
 
   .style5 {
@@ -198,12 +194,13 @@ input:focus {
 
   .email5 {
     width: 100%;
+    position: relative;
+    right: -50px;
   }
 
 
   .button2 {
     width: 100%;
-
   }
 
 
